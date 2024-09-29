@@ -12,9 +12,6 @@
 }
 
 .error {
-  display: block;
-  margin-top: 4px;
-  font-size: 18px;
   color: red;
 }
 
@@ -36,7 +33,7 @@
   margin-bottom: 16px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
-  width: 100%;
+  width: calc(100% - 24px);
   box-sizing: border-box;
   font-size: 14px;
   line-height: 1.5;

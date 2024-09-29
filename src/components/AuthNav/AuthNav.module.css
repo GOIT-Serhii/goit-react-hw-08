@@ -1,0 +1,66 @@
+.wrap {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.authNavList {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.authNavItem {
+  margin-left: 20px;
+  display: flex;
+}
+
+.linkReg,
+.linkLog {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 40px;
+  text-decoration: none;
+  font-size: 16px;
+  color: #333;
+  border: 2px solid #007bff;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, color 0.3s ease,
+    border-color 0.3s ease;
+  text-align: center;
+}
+
+.linkReg:hover,
+.linkLog:hover,
+.linkReg:focus,
+.linkLog:focus {
+  background-color: #007bff;
+  color: #fff;
+  border-color: #0056b3;
+  outline: none;
+}
+
+.icon {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  margin-right: 8px;
+  font-size: 20px;
+}
+
+@media (max-width: 768px) {
+  .authNavItem {
+    margin-left: 10px;
+  }
+
+  .linkReg,
+  .linkLog {
+    width: 90px;
+    height: 36px;
+    font-size: 14px;
+  }
+}
